@@ -1,0 +1,15 @@
+#Sum/Average Program
+#Your first and last name: Nolan Beagell
+#Your student ID: s1293456
+
+numberList = []
+tot=0
+for x in range(0,20):
+    num = int(input("Enter a number: "))
+    numberList.append(num)
+
+for x in range(0,len(numberList)):
+    tot = tot + numberList[x]
+    avg = tot/20
+print("The sum of the numbers you entered is:", tot)
+print("The average of the numbers you entered is: ", avg)
